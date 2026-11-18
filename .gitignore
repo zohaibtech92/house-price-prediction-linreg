@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (downloaded by src/download_data.py, not committed)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
